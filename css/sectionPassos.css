@@ -1,0 +1,70 @@
+#passos {
+    overflow: hidden;
+    position: relative;
+
+    margin-top: 9rem;
+}
+
+#passos .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#passos .card {
+    text-align: left;
+
+    background: #d5e3e6;
+    border-radius: 1rem;
+    padding: 2rem;
+
+    border-bottom: 5px solid var(--primary-color);
+}
+
+#passos .card h4 {
+    color: var(--secondy-color);
+    font-size: 4rem;
+
+    margin-bottom: 1rem;
+}
+
+#passos .card h3 {
+    font-size: 2rem;
+    color: var(--secondy-color);
+    font-weight: 400;
+}
+
+#passos .card h3 span {
+    font-weight: 600;
+}
+
+#passos .card p {
+    font-size: 1.4rem;
+    color: var(--secondy-color);
+    margin-top: 1rem;
+}
+
+#passos a button {
+    margin-top: 3rem;
+}
+ 
+@media (min-width: 1080px) {
+    section#passos {
+        margin-top: 0;
+    }
+
+    section#passos .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    section#passos .card {
+        padding-block: 4rem;
+    }
+
+    section#passos a button {
+        margin-top: 5rem;
+    }
+}

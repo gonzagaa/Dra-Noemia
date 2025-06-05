@@ -78,7 +78,6 @@
   }
   
   #home a button {
-    margin-top: 2rem;
     width: 100%;
   }
   
@@ -171,7 +170,6 @@
   
     header#home .content a button {
       font-size: 2rem;
-      margin-top: 3rem;
     }
   }
 

@@ -15,7 +15,7 @@
     --orange-black: #000504;
     --gradient: linear-gradient(to right, #59a6b3, #89C7D2);
     --bg-black: #000504;
-    --bg-white: #f2fffb;
+    --bg-white: #E8F3F5;
 
     --nav-height: 7.2rem;
 }  
@@ -124,7 +124,7 @@ html {
   }
   
   section {
-    padding-block: 7rem;
+    padding-block: 6rem;
   }
 
   .content {

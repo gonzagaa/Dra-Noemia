@@ -1,0 +1,77 @@
+#cirurgia {
+    overflow: hidden;
+    position: relative;
+}
+
+#cirurgia header {
+    margin-bottom: 0;
+}
+
+#cirurgia header h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #28505C;
+}
+
+#cirurgia header h4 {
+    background: var(--gradient);
+    color: #162b32;
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    font-weight: 500;
+
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+#cirurgia header p.dois {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+#cirurgia img {
+    width: 100%;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#cirurgia img.desktop {
+    display: none;
+}
+
+
+@media (min-width: 1080px) {
+    section#cirurgia .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8rem;
+        align-items: center;
+        grid-template-areas: "a b";
+    }
+
+    section#cirurgia header {
+        margin-bottom: 0;
+        align-items: start;
+        text-align: left;
+        grid-area: b;
+    }
+
+    section#cirurgia header h2 {
+        font-size: 4.5rem;
+        width: 90%;
+
+        margin-bottom: 1rem;
+    }
+
+    section#cirurgia img.desktop {
+        display: inherit;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    section#cirurgia img.mobile {
+        display: none;
+    }
+}

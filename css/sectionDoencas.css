@@ -1,0 +1,82 @@
+#doencas {
+    overflow: hidden;
+    position: relative;
+}
+
+#doencas header h4 {
+    background: var(--gradient);
+    color: #162b32;
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    font-weight: 500;
+
+    margin-bottom: 1rem;
+}
+
+#doencas .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#doencas .cards .row-1,
+#doencas .cards .row-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#doencas .card {
+    text-align: left;
+
+    background: #d5e3e6;
+    border-radius: 1rem;
+    padding: 2rem;
+
+    border-bottom: 5px solid var(--primary-color);
+}
+
+#doencas .card ion-icon {
+    background: var(--gradient);
+    padding: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+#doencas .card h3 {
+    font-size: 2rem;
+    color: var(--secondy-color);
+    font-weight: 600;
+}
+
+#doencas .card h3 span {
+    font-weight: 600;
+}
+
+#doencas .card p {
+    font-size: 1.4rem;
+    color: var(--secondy-color);
+    margin-top: 1rem;
+}
+
+@media (min-width: 1080px) {
+    section#doencas .content .cards {
+    }
+
+    section#doencas .content .cards .row-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section#doencas .content .cards .row-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

@@ -12,6 +12,11 @@
 }
 
 @media (min-width: 1080px) {
+    section#cta {
+        padding-top: 0;
+        padding-bottom: 6rem;
+    }
+
     section#cta header {
         padding-inline: 20%;
     }

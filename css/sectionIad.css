@@ -1,0 +1,85 @@
+#iad {
+    overflow: hidden;
+    position: relative;
+
+    padding-block: 2rem;
+}
+
+#iad header {
+    margin-bottom: 0;
+}
+
+#iad header h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #28505C;
+}
+
+#iad header h4 {
+    background: var(--gradient);
+    color: #162b32;
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    font-weight: 500;
+
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+#iad header p.dois {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+#iad img {
+    width: 100%;
+
+    margin-bottom: 2rem;
+}
+
+#iad img.desktop {
+    display: none;
+}
+
+
+@media (min-width: 1080px) {
+    section#iad {
+        padding-top: 4rem;
+        padding-bottom: 6rem;
+    }
+    section#iad .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8rem;
+        align-items: center;
+        grid-template-areas: "a b";
+    }
+
+    section#iad header {
+        margin-bottom: 0;
+        align-items: start;
+        text-align: left;
+        grid-area: b;
+    }
+
+    section#iad header h2 {
+        font-size: 4.5rem;
+
+        margin-bottom: 1rem;
+    }
+
+    section#iad p.dois {
+        font-size: 2rem;
+    }
+
+    section#iad img.desktop {
+        display: inherit;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    section#iad img.mobile {
+        display: none;
+    }
+}

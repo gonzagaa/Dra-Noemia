@@ -23,6 +23,21 @@
     font-size: 1.6rem;
 }
 
+#sobre header p {
+    margin-bottom: .5rem;
+}
+
+#sobre header p.mini {
+    text-align: left;
+}
+
+#sobre header .minic {
+    margin-block: 1.5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: #cbd6d9;
+}
+
 #sobre img {
     width: 100%;
     margin-bottom: 2rem;
